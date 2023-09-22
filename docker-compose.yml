@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  api:
+    build: .
+    volumes:
+      - "./src/:/src/"
+    expose:
+      - 7777
+    ports:
+      - "7777:7777"

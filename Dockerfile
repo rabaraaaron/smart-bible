@@ -6,5 +6,5 @@ COPY src/requirements.txt /src/requirements.txt
 RUN python3 -m pip install --upgrade pip && \
     python3 -m pip install --no-cache-dir -r src/requirements.txt
 COPY src/ /src/
-EXPOSE 8000
-CMD ["uvicorn", "src.app:app","--host", "0.0.0.0", "--port", "8000", "--reload"]
+EXPOSE 7777
+CMD ["python", "src/app.py"]
