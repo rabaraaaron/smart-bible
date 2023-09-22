@@ -4,10 +4,10 @@ This is the backend for the smart bible application. The purpose of this app is 
 ## Technology Used
 This backend uses Python 3.11.5 as the primary language, FastAPI as the Rest framework, LlamaIndex as the data framework to work with LLMs, Docker as the virtualization platform, and 'insert vector DB here' as the vector database.
 <p align="center">
-  <img src="fast-api.png" width="350" alt="accessibility text"> <br>
-  <img src="docker.png" width="350" alt="accessibility text"> <br>
-  <img src="python.png" width="350" title="hover text"> <br>
-  <img src="llama-index.jpg" width="350" alt="accessibility text"> <br>
+  <img src="images/fast-api.png" width="350" alt="accessibility text"> <br>
+  <img src="images/docker.png" width="350" alt="accessibility text"> <br>
+  <img src="images/python.png" width="350" title="hover text"> <br>
+  <img src="images/llama-index.jpg" width="350" alt="accessibility text"> <br>
 </p>
 
 ## How to Run Locally
