@@ -9,8 +9,12 @@ os.environ["OPENAI_API_KEY"] = "sk-kbza9EFNd32GfES1ctIST3BlbkFJkEEEQfCxOY5hkMjVD
 import openai
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
-# Example for documents you want to load
-resume_doc = SimpleDirectoryReader(input_files=["src/files/David-Quichocho-Resume.pdf", "src/files/Mohammad Almutawa-Resume .pdf"]).load_data()
+'''
+Example below for documents you want to load.
+It's commented out to prevent error. src/files is untracked, 
+so create that folder add your own pdf files to that folder if you want to load some files.
+'''
+# resume_doc = SimpleDirectoryReader(input_files=["src/files/David-Quichocho-Resume.pdf", "src/files/Mohammad Almutawa-Resume .pdf"]).load_data()
 
 # Establish Elasticsearch connection
 vector_store = ElasticsearchStore(
