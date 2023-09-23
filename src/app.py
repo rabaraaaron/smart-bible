@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 import uvicorn
+from elasticsearchconnection import connectTest
 
 app = FastAPI()
 
@@ -11,9 +12,9 @@ async def root():
 async def health():
     return {"message": "Health check!!!"}
 
-@app.get("/reload")
-async def reload():
-    return {"message": "Reload!!!"}
+@app.get("/connect")
+async def connect():
+    return {"message": connectTest()}
 
 if __name__ == '__main__':
     uvicorn.run("app:app", port=7777, host='0.0.0.0', reload=True)
