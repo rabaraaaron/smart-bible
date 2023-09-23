@@ -2,7 +2,7 @@
 This is the backend for the smart bible application. The purpose of this app is to provide ChatGPT-like responses to questions regarding the Bible, and argumentative information involving the Bible. This means that you should be able to ask this application anything about the Bible and it should be able to respond intelligently. 
 
 ## Technology Used
-This backend uses Python 3.11.5 as the primary language, FastAPI as the Rest framework, LlamaIndex as the data framework to work with LLMs, Docker as the virtualization platform, and 'insert vector DB here' as the vector database.
+This backend uses Python 3.11.5 as the primary language, FastAPI as the Rest framework, LlamaIndex as the data framework to work with LLMs, Docker as the virtualization platform, and Elastic Search as the vector database.
 <p align="center">
   <img src="images/fast-api.png" width="350" alt="accessibility text"> <br>
   <img src="images/docker.png" width="350" alt="accessibility text"> <br>
